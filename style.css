@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Muli&display=swap');
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+}
+.bg {
+	position: absolute;
+	top: -30px;
+	left: -40px;
+	background-image: url(./img/nature-wallpaper-07.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: calc(100vw + 60px);
+	height: calc(100vh + 60px);
+	z-index: -1;
+	filter: blur();
+}
+.loading_text {
+	font-size: 3rem;
+	color: white;
+}
